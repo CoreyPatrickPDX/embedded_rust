@@ -1,0 +1,23 @@
+# Ignore compiled files
+/target/
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.bak
+*.swp
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Cargo.lock file for dependencies
+Cargo.lock
+
+# Ignore binary executables (optional)
+*.exe
+*.out
